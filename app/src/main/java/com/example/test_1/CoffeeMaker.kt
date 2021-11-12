@@ -109,7 +109,7 @@ class CoffeeMaker : AppCompatActivity() {
                     txt3.setText("Sugar 100%")
                     Toast.makeText(this, "Sugar Level: 100%", Toast.LENGTH_SHORT).show()
                 }
-                //else ->
+
             }
         }
 
