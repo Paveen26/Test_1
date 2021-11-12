@@ -37,9 +37,6 @@ class Gates : AppCompatActivity() {
         btnG1.setOnClickListener {
             Toast.makeText(this, "Gates are opening !", Toast.LENGTH_SHORT).show()
             myRef.child("Gates").setValue("Opening")
-
-            /*val intent = Intent(this, MainActivity::class.java)
-            startActivity(intent)*/
         }
 
         btnG2.setOnClickListener {
