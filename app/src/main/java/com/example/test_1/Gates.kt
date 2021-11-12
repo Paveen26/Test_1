@@ -36,10 +36,6 @@ class Gates : AppCompatActivity() {
         //Main Gate
         btnG1.setOnClickListener {
             Toast.makeText(this, "Gates are opening !", Toast.LENGTH_SHORT).show()
-            /*val database = Firebase.database
-            val myRef = database.getReference("Main Gate")
-            myRef.setValue("Opening")*/
-
             myRef.child("Gates").setValue("Opening")
 
             /*val intent = Intent(this, MainActivity::class.java)

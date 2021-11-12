@@ -16,12 +16,6 @@ class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
-        /*btnM = findViewById(R.id.btnM)
-        myRef = FirebaseDatabase.getInstance().reference
-
-        btnM.setOnClickListener{
-            myRef.child("abc").setValue("message123")
-        }*/
 
         btnM1 = findViewById(R.id.btnM1)
         btnM2 = findViewById(R.id.btnM2)
